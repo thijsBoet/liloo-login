@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 70vh;
+	font-family: 
+	Roboto,
+	BlinkMacSystemFont,
+	-apple-system,
+	'Segoe UI',
+	'Helvetica Neue',
+	Arial,
+	'Noto Sans',
+	sans-serif,
+	'Apple Color Emoji',
+	'Segoe UI Emoji',
+	'Segoe UI Symbol',
+	'Noto Color Emoji';
+}
+
+form {
+	font-size: 15px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+form img {
+	max-width: 80vw;
+	margin-bottom: 20px;
+}
+
+form input {
+	margin-bottom: 5px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+}
+
+form button {
+	margin-top: 5px;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	width: 209px;
+	cursor: pointer;
+}
+
+form a {
+	margin-top: 15px;
+	text-decoration: none;
+	color: #000;
+	font-size: 15px;
+	cursor: pointer;
+}
